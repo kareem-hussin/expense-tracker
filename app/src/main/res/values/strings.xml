@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="transactions">Transactions</string>
+    <string name="new_transactions">New Transaction</string>
+    <string name="report">Report</string>
+    <string name="select_date">Select Date of Transaction</string>
+    <string name="no_transactions">No transactions in the selected time period</string>
+    <string name="no_income_transactions">No Income Transactions</string>
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

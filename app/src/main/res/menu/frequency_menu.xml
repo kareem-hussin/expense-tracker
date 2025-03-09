@@ -1,0 +1,12 @@
+<!-- res/menu/frequency_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/daily"
+        android:title="Daily" />
+    <item
+        android:id="@+id/weekly"
+        android:title="Weekly" />
+    <item
+        android:id="@+id/none"
+        android:title="None" />
+</menu>

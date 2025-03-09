@@ -1,0 +1,28 @@
+<!-- res/layout/item_header.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#E0E0E0">
+
+    <!-- Date TextView (left-aligned) -->
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Date" />
+
+    <!-- Balance TextView (right-aligned) -->
+    <TextView
+        android:id="@+id/header_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="P0.00" />
+</LinearLayout>
